@@ -4,7 +4,7 @@ This is the package for subsurface Marine Heatwave (MHW) detection, using sea su
 
 The package structure is outlined as follows:
 
-GSVC Model: Estimate subsurface temperature anomaly (T') using the GSVC model (implemented in GSVC.py). We strongly encourage using MPI parallelization to run this model. Subsequently, pointwise MHWs are detected following the methodology of Hobday et al., 2016 (https://github.com/ZijieZhaoMMHW/m_mhw1.0/detect.m).
+GSVC Model: Estimate subsurface temperature anomaly (T') using the GSVC model (implemented in GSVC.py). We strongly encourage to use MPI parallelization to run this model. Subsequently, pointwise MHWs are detected following the methodology of Hobday et al., 2016 (https://github.com/ZijieZhaoMMHW/m_mhw1.0/detect.m).
 
 CNN_cla Model: Directly detect subsurface MHWs using the CNN_cla model, which generates a binary output (implemented in CNN_cla.py).
 
